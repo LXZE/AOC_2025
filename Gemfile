@@ -11,3 +11,5 @@ gem "benchmark", "~> 0.5.0"
 gem "rainbow", "~> 3.1"
 
 gem "parallel", "~> 1.27"
+
+gem "z3", "~> 0.0.20251017"

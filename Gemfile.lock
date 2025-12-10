@@ -12,6 +12,14 @@ GEM
     csv (3.3.5)
     diff-lcs (1.6.2)
     dotenv (3.2.0)
+    ffi (1.17.2-aarch64-linux-gnu)
+    ffi (1.17.2-aarch64-linux-musl)
+    ffi (1.17.2-arm-linux-gnu)
+    ffi (1.17.2-arm-linux-musl)
+    ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
+    ffi (1.17.2-x86_64-linux-musl)
     httparty (0.23.2)
       csv
       mini_mime (>= 1.0.0)
@@ -52,6 +60,8 @@ GEM
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
     thor (1.4.0)
+    z3 (0.0.20251017)
+      ffi (~> 1.17)
 
 PLATFORMS
   aarch64-linux-gnu
@@ -68,6 +78,7 @@ DEPENDENCIES
   benchmark (~> 0.5.0)
   parallel (~> 1.27)
   rainbow (~> 3.1)
+  z3 (~> 0.0.20251017)
 
 BUNDLED WITH
    2.6.9
