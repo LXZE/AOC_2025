@@ -1,0 +1,19 @@
+defmodule Aoc.Y<%= @year %>.D<%= @day %> do
+  import Aoc.Util
+
+  @spec part1(String.t()) :: any()
+  def part1(input) do
+    :ok
+  end
+
+  @spec part2(String.t()) :: any()
+  def part2(input) do
+    :ok
+  end
+
+  @spec parse_input(String.t()) :: list(String.t())
+  def parse_input(input) do
+    parse_lines(input)
+    |> Enum.map(&String.trim/1)
+  end
+end

@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run test elixir",
+			"type": "shell",
+			"command": "mix aoc.test ${relativeFileDirname}",
+			"problemMatcher": []
+		},
+		{
+			"label": "run full elixir",
+			"type": "shell",
+			"command": "mix aoc.run ${relativeFileDirname}",
+			"problemMatcher": []
+		},
+	]
+}

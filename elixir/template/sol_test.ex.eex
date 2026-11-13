@@ -1,0 +1,19 @@
+defmodule AocTest.Y<%= @year %>.D<%= @day %> do
+  use ExUnit.Case, async: false
+
+  alias Aoc.Y<%= @year %>.D<%= @day %>, as: Solver
+  setup do: IO.puts("\n")
+
+  @example ~S"""
+  """
+
+  describe "Example case" do
+    test "part 1" do
+      assert Solver.part1(@example) == :ok
+    end
+
+    test "part 2" do
+      assert Solver.part2(@example) == :ok
+    end
+  end
+end
